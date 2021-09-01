@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "preact",
+  "name": "qbpricing-preact",
   "version": "0.0.0",
   "license": "MIT",
   "main": "src/index.js",
@@ -58,9 +58,6 @@
       "^react-addons-css-transition-group$": "preact-css-transition-group"
     }
   },
-  "keywords": [
-    "preact",
-    "starter"
-  ],
-  "description": "Preact example starter project"
+  "keywords": [],
+  "description": ""
 }

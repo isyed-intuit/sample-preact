@@ -2,14 +2,12 @@ export const Result = ({ result }) => {
   return (
     <div class="result">
       <div>
-        <a href={result.html_url} target="_blank">
+        <a href={result.html_url} target="_blank" rel="noopener noreferrer">
           {result.full_name}
         </a>
         🌟<strong>{result.stargazers_count}</strong>
       </div>
-      <p>
-        {result.description}
-      </p>
+      <p>{result.description}</p>
     </div>
   );
 };
